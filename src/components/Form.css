@@ -1,0 +1,13 @@
+.flex-grid {
+  display: block;
+}
+
+.col {
+  flex: 1;
+}
+
+@media (min-width: 600px) {
+  .flex-grid {
+    display: flex;
+  }
+}
