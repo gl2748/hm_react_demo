@@ -22,7 +22,6 @@ export const Form: React.FunctionComponent<IFormProps> = ({
     e.preventDefault();
     field.value = e.target.value;
     update(key, field);
-    // See:
     forceUpdate({});
   };
   const buildForm = (
